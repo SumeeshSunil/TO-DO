@@ -1,6 +1,5 @@
 // Create a task Array
-let tasks = [];
-
+let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 function addTask () {
   let taskInput = document.getElementById("task");
   let text = taskInput.value;
