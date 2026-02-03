@@ -10,6 +10,8 @@ function addTask () {
   }else{
     tasks.push(text);
     taskInput.value = "";
+    localStorage.setItem("tasks", JSON.stringify(tasks));
     console.log(tasks);
     }
 }
+
