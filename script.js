@@ -11,7 +11,8 @@ function addTask () {
     tasks.push(text);
     taskInput.value = "";
     localStorage.setItem("tasks", JSON.stringify(tasks));
-    console.log(tasks);
+    let saved = localStorage.getItem("tasks");
+    console.log(saved);
     }
 }
 
