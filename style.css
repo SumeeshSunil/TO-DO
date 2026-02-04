@@ -1,0 +1,11 @@
+        body {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column
+        }
+        h3 {
+            text-align: center;
+            color:cornflowerblue;
+        }
+    
